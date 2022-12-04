@@ -3,7 +3,9 @@
 1. [Introduction](https://github.com/louisteo9/udacity-disaster-response-pipeline#introduction)
 2. [Dataset](https://github.com/louisteo9/udacity-disaster-response-pipeline#Dataset)
 3. [File Descriptions](https://github.com/louisteo9/udacity-disaster-response-pipeline#file-descriptions)
-4. [Acknowledgements](https://github.com/louisteo9/udacity-disaster-response-pipeline#acknowledgements)
+4. [Installation](https://github.com/louisteo9/udacity-disaster-response-pipeline#installation)
+5. [Instructions](https://github.com/louisteo9/udacity-disaster-response-pipeline#instructions)
+6. [Acknowledgements](https://github.com/louisteo9/udacity-disaster-response-pipeline#acknowledgements)
 
 
 ## Introduction
@@ -43,6 +45,21 @@ Folder: templates - web dependency files (go.html & master.html) required to run
 ### Images Folder
 - Images for the results
 
+## Installation
+There should be no extra libraries required to install apart from those coming together with Anaconda distribution. There should be no issue to run the codes using Python 3.5 and above.
+
+## Instructions
+1. Run the following commands in the project's root directory to set up your database and model.
+
+    - To run ETL pipeline that cleans data and stores in database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - To run ML pipeline that trains classifier and saves
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+2. Run the following command in the app's directory to run your web app.
+    `python run.py`
+
+3. Go to http://0.0.0.0:3001/
 
 ## Acknowledgements
 * [Udacity](https://www.udacity.com/) for providing an excellent Data Scientist training program.
