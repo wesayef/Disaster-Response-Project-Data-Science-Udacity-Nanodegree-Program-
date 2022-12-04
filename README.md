@@ -1,11 +1,10 @@
 # Disaster Response Project ( Data Scientist - UdacityNanodegree Program)
 ## Table of Contents
 1. [Introduction](https://github.com/louisteo9/udacity-disaster-response-pipeline#introduction)
-2. [File Descriptions](https://github.com/louisteo9/udacity-disaster-response-pipeline#file-descriptions)
-3. [Installation](https://github.com/louisteo9/udacity-disaster-response-pipeline#installation)
-4. [Instructions](https://github.com/louisteo9/udacity-disaster-response-pipeline#instructions)
-5. [Acknowledgements](https://github.com/louisteo9/udacity-disaster-response-pipeline#acknowledgements)
-6. [Screenshots](https://github.com/louisteo9/udacity-disaster-response-pipeline#screenshots)
+2. [Dataset](https://github.com/louisteo9/udacity-disaster-response-pipeline#Dataset)
+3. [File Descriptions](https://github.com/louisteo9/udacity-disaster-response-pipeline#file-descriptions)
+4. [Acknowledgements](https://github.com/louisteo9/udacity-disaster-response-pipeline#acknowledgements)
+
 
 ## Introduction
 This project is part of the Udacity's Data Scientist Nanodegree Program in collaboration with [Figure Eight](https://www.figure-eight.com/).
@@ -25,21 +24,24 @@ Data includes 2 csv files:
 2. disaster_categories.csv: Disaster categories of messages.
 
 ## File Descriptions
-### Folder: app
+### App Folder
 **run.py** - python script to launch web application.<br/>
 Folder: templates - web dependency files (go.html & master.html) required to run the web application.
 
-### Folder: data
+### Data Folder
 **disaster_messages.csv** - real messages sent during disaster events (provided by Figure Eight)<br/>
 **disaster_categories.csv** - categories of the messages<br/>
 **process_data.py** - ETL pipeline used to load, clean, extract feature and store data in SQLite database<br/>
 **ETL Pipeline Preparation.ipynb** - Jupyter Notebook used to prepare ETL pipeline<br/>
 **DisasterResponse.db** - cleaned data stored in SQlite database
 
-### Folder: models
+### Models Folder
 **train_classifier.py** - ML pipeline used to load cleaned data, train model and save trained model as pickle (.pkl) file for later use<br/>
 **classifier.pkl** - pickle file contains trained model<br/>
 **ML Pipeline Preparation.ipynb** - Jupyter Notebook used to prepare ML pipeline
+
+### Imaged
+- Images for the results
 
 
 ## Acknowledgements
