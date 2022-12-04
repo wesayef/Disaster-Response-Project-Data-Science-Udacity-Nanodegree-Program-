@@ -40,7 +40,7 @@ Folder: templates - web dependency files (go.html & master.html) required to run
 **classifier.pkl** - pickle file contains trained model<br/>
 **ML Pipeline Preparation.ipynb** - Jupyter Notebook used to prepare ML pipeline
 
-### Imaged
+### Images Folder
 - Images for the results
 
 
