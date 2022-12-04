@@ -3,9 +3,8 @@
 1. [Introduction](https://github.com/louisteo9/udacity-disaster-response-pipeline#introduction)
 2. [Dataset](https://github.com/louisteo9/udacity-disaster-response-pipeline#Dataset)
 3. [File Descriptions](https://github.com/louisteo9/udacity-disaster-response-pipeline#file-descriptions)
-4. [Installation](https://github.com/louisteo9/udacity-disaster-response-pipeline#installation)
-5. [Instructions](https://github.com/louisteo9/udacity-disaster-response-pipeline#instructions)
-6. [Acknowledgements](https://github.com/louisteo9/udacity-disaster-response-pipeline#acknowledgements)
+4. [Instructions](https://github.com/louisteo9/udacity-disaster-response-pipeline#instructions)
+5. [Acknowledgements](https://github.com/louisteo9/udacity-disaster-response-pipeline#acknowledgements)
 
 
 ## Introduction
@@ -45,8 +44,6 @@ Folder: templates - web dependency files (go.html & master.html) required to run
 ### Images Folder
 - Images for the results
 
-## Installation
-There should be no extra libraries required to install apart from those coming together with Anaconda distribution. There should be no issue to run the codes using Python 3.5 and above.
 
 ## Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
