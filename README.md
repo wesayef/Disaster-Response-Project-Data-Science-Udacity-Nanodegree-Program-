@@ -14,6 +14,16 @@ In this project, the pre-labeled disaster messages will be used to build a disas
 
 This project includes a web application where disaster response worker can input messages received and get classification results.
 
+## Dataset
+The data in this project comes from Figure Eight - Multilingual Disaster Response Messages. This dataset contains 30,000 messages drawn from events including an earthquake in Haiti in 2010, an earthquake in Chile in 2010, floods in Pakistan in 2010, super-storm Sandy in the U.S.A. in 2012, and news articles spanning a large number of years and 100s of different disasters.
+
+The data has been encoded with 36 different categories related to disaster response and has been stripped of messages with sensitive information in their entirety.
+
+Data includes 2 csv files:
+
+1. disaster_messages.csv: Messages data.
+2. disaster_categories.csv: Disaster categories of messages.
+
 ## File Descriptions
 ### Folder: app
 **run.py** - python script to launch web application.<br/>
